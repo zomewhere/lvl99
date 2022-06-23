@@ -40,3 +40,28 @@
     background-color: black;
     border-radius: 5px;
 }
+
+.cartIcon{
+    display: flex;
+    margin-right: 5px;
+    padding: 5px;
+    background-color: #c21e38;
+    border-radius: 5px;
+}
+
+.cartIcon img{
+    width: 30px;
+    padding: 10px;
+}
+
+.cartIcon p{
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 50%;
+}
