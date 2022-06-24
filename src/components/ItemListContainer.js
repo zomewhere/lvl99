@@ -1,8 +1,10 @@
 import React from "react";
 
-let ItemListContainer = () => {
+let ItemListContainer = ({welcomeMessage}) => {
     return(
-        <p>Texto Provisorio Item List Container</p>
+        <div>
+            <h2>{welcomeMessage}</h2>
+        </div>
     )
 }
 
