@@ -8,13 +8,14 @@ const App = () =>{
 
   const onAdd = (qty) => {
     alert(`Agregaste ${qty} productos`);
+    console.log(`Agregaste ${qty} productos`);
   };
 
   return ( 
   <>
     <Navbar />
     <ItemListContainer welcomeMessage = {"Mensaje de bienvenida"}/>
-    <ItemCount onAdd={onAdd}/>
+    <ItemCount stock = {5} initial = {1} onAdd={onAdd}/>
   </>
   );
 }

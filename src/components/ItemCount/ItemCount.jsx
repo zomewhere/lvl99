@@ -3,9 +3,9 @@ import { useState } from 'react';
 
 import './ItemCount.css';
 
-const ItemCount = ({ onAdd }) => {
-  const initial = 1;
-  const stock = 10; 
+const ItemCount = ({stock, initial, onAdd }) => {
+  //const initial = 1;
+  //const stock = 10; 
   const [qty, setQty] = useState(initial);
 
   const addProduct = (num) => {
