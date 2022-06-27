@@ -1,10 +1,7 @@
 import React from "react"
 import "./navbarStyle.css"
-import logo from "../level99-logo.svg"
-import cart from "../cart.png"
-import user from "../user.png"
-//import cartIcon from "./cartWidget"
-import ShoppingCart from "./cartWidget"
+import logo from "../../level99-logo.svg"
+import ShoppingCart from "../CartWidget/cartWidget"
 
 const Navbar = () =>{
     return(
@@ -21,7 +18,6 @@ const Navbar = () =>{
                 <a href="#">Contacto</a>
             </nav>
             <div>
-                {/* <img src={user} alt="Pagina de Usuario" /> */}
                 <div className="cartIcon"><ShoppingCart /></div>
             </div>
         </header>
