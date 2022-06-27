@@ -1,6 +1,6 @@
 import React from "react"
 import "./navbarStyle.css"
-import logo from "../../level99-logo.svg"
+import logo from "../../assets/level99-logo.svg"
 import ShoppingCart from "../CartWidget/cartWidget"
 
 const Navbar = () =>{
