@@ -1,0 +1,36 @@
+.cardBody{
+    /* border: 1px solid red; */
+    margin: 20px;
+    width: 250px;
+}
+
+.cardImage img{
+    width: 250px;
+    border-radius: 10px 10px 0 0;
+}
+
+.cardInfo{
+    padding-bottom: 10px;
+}
+
+.cardName{
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.cardPrice{
+    font-size: 20px;
+    color: #c21e38;
+}
+
+.cardButton{
+    background-color: #c21e38;
+    padding: 5px 10px;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}
+
+.cardButton:hover{
+    background-color: black;
+}

@@ -1,0 +1,10 @@
+h2{
+    text-align: center;
+}
+
+.loading{
+    background-color: #c21e38;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+}
