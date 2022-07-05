@@ -1,11 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 
-import './ItemCount.css';
+import './styles/ItemCount.css';
 
 const ItemCount = ({stock, initial, onAdd }) => {
-  //const initial = 1;
-  //const stock = 10; 
   const [qty, setQty] = useState(initial);
 
   const addProduct = (num) => {

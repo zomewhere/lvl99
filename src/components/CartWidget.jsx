@@ -1,5 +1,5 @@
 import React from "react";
-import CartIcon from "../../assets/cart.png"
+import CartIcon from "../assets/cart.png"
 
 
 const ShoppingCart = () =>{

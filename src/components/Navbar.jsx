@@ -1,7 +1,8 @@
 import React from "react"
-import "./navbarStyle.css"
-import logo from "../../assets/level99-logo.svg"
-import ShoppingCart from "../CartWidget/cartWidget"
+import "./styles/navbarStyle.css"
+import logo from "../assets/level99-logo.svg"
+import ShoppingCart from "./CartWidget"
+import { Link } from "react-router-dom"
 
 const Navbar = () =>{
     return(

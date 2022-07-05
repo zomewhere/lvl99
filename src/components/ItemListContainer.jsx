@@ -1,19 +1,11 @@
 import React, { useEffect, useState } from "react";
-import ItemList from "../ItemList/ItemList"
-import { getData } from "../../mocks/fakeApi"
-import "./ItemListContainer.css"
+import ItemList from "./ItemList"
+import { getData } from "../mocks/fakeApi"
+import "./styles/ItemListContainer.css"
 
 let ItemListContainer = ({welcomeMessage}) => {
     const [productList, setProductList] = useState([])
     const [loading, setLoading] = useState(true)
-
-    
-    // useEffect(()=>{
-    //     getData
-    //     .then((result)=> setProductList(result))
-    //     .cath((error)=> console.log(error))
-    //     .finally(()=> setLoading(false))
-    // },[])
 
     const getProducts = async () => {
         try{
@@ -36,7 +28,6 @@ let ItemListContainer = ({welcomeMessage}) => {
             {loading ? <p className="loading">Cargando...</p> : <ItemList productList={productList} />}
         </div>
     )
-    
 }
 
 export default ItemListContainer

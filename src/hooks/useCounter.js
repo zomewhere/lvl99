@@ -12,3 +12,8 @@ export const useCounter = (initialState = 0) => {
     decrement,
   };
 };
+
+export const onAdd = (qty) => {
+  alert(`Agregaste ${qty} productos`);
+  console.log(`Agregaste ${qty} productos`);
+};

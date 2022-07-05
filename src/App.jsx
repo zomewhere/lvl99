@@ -1,7 +1,13 @@
 import React from 'react';
-import Navbar from "./components/Navbar/navbar"
-import ItemListContainer from './components/ItemListContainer/ItemListContainer';
-import ItemCount from './components/ItemCount/ItemCount';
+import Navbar from "./components/Navbar"
+import ItemListContainer from './components/ItemListContainer';
+import ItemCount from './components/ItemCount';
+import ItemDetailContainer from './components/ItemDetailContainer';
+import {
+  BrowserRouter,
+  Routes,
+  Route
+} from "react-router-dom";
 
 
 const App = () =>{
@@ -13,9 +19,10 @@ const App = () =>{
 
   return ( 
   <>
-    <Navbar />
-    <ItemListContainer welcomeMessage = {"Mensaje de bienvenida"}/>
-    <ItemCount stock = {5} initial = {1} onAdd={onAdd}/>
+      <Navbar />
+      <ItemListContainer welcomeMessage = {"Mensaje de bienvenida"}/>
+      <ItemCount stock = {5} initial = {1} onAdd={onAdd}/>
+      <ItemDetailContainer />    
   </>
   );
 }

@@ -1,0 +1,26 @@
+.itemDetail{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.itemDetail img{
+    margin-right: 50px;
+    border-radius: 20px;
+}
+
+.itemDetail-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    width: 500px;
+}
+
+
+.itemDetail-Count{
+    display: flex;
+    justify-content: flex-start;
+    width: 300px;
+}
